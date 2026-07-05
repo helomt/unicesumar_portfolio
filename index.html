@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Heloisa Tavares</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/png" href="img/H.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho" id="home">
+
+  
+        <nav class="menu">
+            <a href="#home" class="logo"><span class="letra-logo">H</span>eloisa</a>
+
+            <ul class="menu-links" id="menu-links">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#experiencia">Experiências</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#extra">Curiosidades</a></li>
+            </ul>
+
+   
+            <button class="hamburguer" id="hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+
+        <div class="hero">
+            <img
+                src="img/profile.png"
+                alt="Foto de perfil de Heloisa Tavares"
+                class="foto-perfil"
+            >
+
+            <div class="hero-texto">
+                <p class="ola">Olá, eu sou</p>
+                <h1>Heloisa Tavares</h1>
+                <h2>Desenvolvedora Fullstack.</h2>
+
+                <div class="hero-botoes">
+                    <a href="https://wa.me/5547988272033" target="_blank" class="botao botao-preenchido">Vem dar um Olá</a>
+                    <a href="#projetos" class="botao botao-contorno">Ver meu trabalho</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+       
+        <section id="sobre" class="secao">
+            <h2 class="titulo-secao">Sobre mim</h2>
+            <p class="subtitulo-secao">Apaixonada por tecnologia e desafios.</p>
+
+            <ul class="lista-sobre">
+                <li>Formada em Engenharia Civil pela Udesc com 7 anos de experiência na área.</li>
+                <li>Decidi migrar para a área de tecnologia em 2024, buscando novos desafios e oportunidades.</li>
+                <li>Finalizando minha formação em Análise e Desenvolvimento de Sistemas em meados de 2027.</li>
+                <li>Com experiência acadêmica e primeiros passos na área profissional desde 2025.</li>
+                <li>Atuando atualmente em projetos com Java, Spring Boot, Python e Angular.</li>
+                <li>Nível avançado de inglês, português nativo, espanhol intermediário e frances básico.</li>
+                <li>Atualmente buscando a minha primeira certificação AWS.</li>
+                <li>Sempre estudando novas ferramentas, com foco principal em Spring Framework e IA.</li>
+            </ul>
+        </section>
+
+
+        <section id="experiencia" class="secao destaque">
+            <p class="eyebrow">Profissional</p>
+            <h2 class="titulo-secao">Experiências</h2>
+
+            <div class="abas">
+                <button class="aba-botao ativo" data-alvo="graduacao">Graduação</button>
+                <button class="aba-botao" data-alvo="trabalho">Trabalho</button>
+                <button class="aba-botao" data-alvo="cursos">Cursos</button>
+            </div>
+
+            <div class="aba-conteudo ativo" id="graduacao">
+                <article class="card">
+                    <h3>Superior de tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+                    <h4>Unicesumar</h4>
+                    <p><strong>Período:</strong> 2025 - 2027</p>
+                    <p>Estudos voltados a programação, banco de dados, engenharia de software e desenvolvimento web.</p>
+                </article>
+                <article class="card">
+                    <h3>Bacharelado em Engenharia Civil</h3>
+                    <h4>Udesc</h4>
+                    <p><strong>Período:</strong> 2010 - 2016</p>
+                    <p>Graduação em Engenharia Civil com foco em calculos estruturais e materiais de construção.</p>
+                </article>
+            </div>
+
+            <div class="aba-conteudo" id="trabalho">
+                <article class="card">
+                    <h3>Estágio em Desenvolvimento</h3>
+                    <h4>Trier Sistemas</h4>
+                    <p><strong>Período:</strong> 2025 - Atual</p>
+                    <p>Desenvolvimento de APIs com Java, ETLs em Python e modelagem de banco de dados em PostgreSQL.</p>
+                    <p>Desenvolvimento de painéis com Qlik Sense e Power BI.</p>
+                </article>
+                <article class="card">
+                    <h3>Engenheira Civil</h3>
+                    <h4>Autonoma</h4>
+                    <p><strong>Período:</strong> 2016 - Atual</p>
+                    <p>Desenvolvimento de projetos de engenharia civil, hidrossanitária, estrutural, etc.</p>
+                    <p>Atualmente atuando somente em consultoria.</p>
+                </article>
+            </div>
+
+            <div class="aba-conteudo" id="cursos">
+                <article class="card">
+                    <h3>Programa Jovem Dev</h3>
+                    <h4>Senai/SC - Trier </h4>
+                    <p><strong>Período:</strong> 2025</p>
+                    <p>Curso focado em construção de APIs, utilizando Angular, Java e PostgreSQL.</p>
+                </article>
+                <article class="card">
+                    <h3>FuturoDev</h3>
+                    <h4>Senai/SC - Lab 365 </h4>
+                    <p><strong>Período:</strong> 2024</p>
+                    <p>Curso de desenvolvimento web, React, Java Spring Boot. e PostgreSQL.</p>
+                </article>
+                <article class="card">
+                    <h3>Entra21</h3>
+                    <h4>Proway </h4>
+                    <p><strong>Período:</strong> 2024</p>
+                    <p>Curso de analise de dados, Python, PowerBI e MySQL.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projetos" class="secao">
+            <p class="eyebrow">Projetos</p>
+            <h2 class="titulo-secao">Meus Projetos</h2>
+
+            <div class="abas">
+                <button class="aba-botao ativo" data-alvo="pessoais">Projetos Pessoais</button>
+                <button class="aba-botao" data-alvo="colaboracoes">Colaborações</button>
+                <button class="aba-botao" data-alvo="academicos">Acadêmicos</button>
+            </div>
+
+            <div class="aba-conteudo ativo grid-projetos" id="pessoais">
+                <article class="card">
+                    <h3>Sistema de Controle Alimentar</h3>
+                    <p><strong>Tecnologias:</strong> Java, Spring Boot, PostgreSQL, React</p>
+                    <p>Aplicação para criação e gerenciamento de refeições e nutrição de criança com doenças crônicas.</p>
+                </article>
+
+                <article class="card">
+                    <h3>App de Controle de Figurinhas</h3>
+                    <p><strong>Tecnologias:</strong> Next.js, Prisma, Tailwind CSS</p>
+                    <p>Aplicação para controle de figuras colecionáveis, com funcionalidades de coleta e gerenciamento.</p>
+                    <a href="https://cromosmaster.vercel.app/login" target="_blank" class="letra-link">Acesse</a>
+                </article>
+            </div>
+
+            <div class="aba-conteudo grid-projetos" id="colaboracoes">
+                <article class="card">
+                    <h3>Cadastro de Locais de Treino</h3>
+                    <p><strong>Tecnologias:</strong> Java, Spring Boot, PostgreSQL</p>
+                    <p>Api para gerenciar locais de treino, com funcionalidades de cadastro e consulta.</p>
+                    <a href="https://github.com/helomt/futurodev_api_ativa365" target="_blank" class="letra-link">Acesse</a>
+                </article>
+                 <article class="card">
+                    <h3>E-commerce completo de produtos naturais</h3>
+                    <p><strong>Tecnologias:</strong> Java, Spring Boot, PostgreSQL, Bootstrap, HTML, CSS</p>
+                    <p>E-commerce completo com funcionalidades de catálogo, carrinho e checkout.</p>
+                    <a href="https://github.com/Alquimia-da-lua/alquimia-frontend" target="_blank" class="letra-link">Acesse</a>
+                </article>
+            </div>
+
+            <div class="aba-conteudo grid-projetos" id="academicos">
+                <article class="card">
+                    <h3>Menu interativo para pedidos de Lanchonete</h3>
+                    <p><strong>Tecnologias:</strong> Bootstrap, JavaScript, HTML</p>
+                    <p>Frontend com retenção de dados em localstorage simulando um sistema de pedidos.</p>
+                    <a href="https://github.com/helomt/trier_lanchonete_express" target="_blank" class="letra-link">Acesse</a>
+                </article>
+                 <article class="card">
+                    <h3>Lista de Livros Interativa</h3>
+                    <p><strong>Tecnologias:</strong> Bootstrap, JavaScript, HTML </p>
+                    <p>Frontend com retenção de dados em localstorage simulando um sistema de gerenciamento de livros.</p>
+                    <a href="https://github.com/helomt/trier_leitura_livre" target="_blank" class="letra-link">Acesse</a>
+                </article>
+            </div>
+        </section>
+
+
+        <section id="habilidades" class="secao destaque">
+            <h2 class="titulo-secao">Minhas Habilidades</h2>
+
+            <div class="lista-cards">
+                <div class="skill-card">HTML5</div>
+                <div class="skill-card">CSS3</div>
+                <div class="skill-card">Tailwind CSS</div>
+                <div class="skill-card">Bootstrap</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">Spring Boot</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Next.js</div>
+                <div class="skill-card">React</div>
+                <div class="skill-card">Angular</div>
+                <div class="skill-card">Flutter</div>
+                <div class="skill-card">PostgreSQL</div>
+                <div class="skill-card">AWS</div>
+                <div class="skill-card">Docker</div>
+                <div class="skill-card">Git e GitHub</div>
+            </div>
+        </section>
+
+        <aside id="extra" class="secao">
+            <h2 class="titulo-secao">Curiosidades &amp; Links</h2>
+            <p class="subtitulo-secao">Um pouco além do código.</p>
+
+            <ul class="lista-sobre">
+                <li>Nas horas livres, gosto de aprender idiomas novos.</li>
+                <li>Sempre aprendendo coisas novas desde culinária a artes marciais.</li>
+                <li>Curto mexer em projetos de servidor próprio e automação caseira.</li>
+                <li>Apaixonada por música e sempre programando com um bom playlist tocando.</li>
+                <li>Faço serviço voluntário tanto em TI quanto em engenharia em instituições sem fins lucrativos.</li>
+                
+            </ul>
+
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/heloisamtavares/" target="_blank" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/helomt" target="_blank" title="GitHub"><i class="bx bxl-github"></i></a>
+                <a href="https://www.instagram.com/heloisamt/" target="_blank" title="Instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="mailto:heloisa.tavares@gmail.com" target="_blank" title="Email"><i class="bx bxl-gmail"></i></a>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 por Heloisa Tavares.</p>
+        <a href="#home" class="topo">&uarr;</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
